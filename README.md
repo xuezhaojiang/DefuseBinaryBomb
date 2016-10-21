@@ -10,7 +10,9 @@
 6.执行5步stepi  5
 7.查看寄存器的值print $eax;以16进制查看print /x $eax     
 8.查看寄存器指向内存中位置的值（以整数形式查看）print *(int*) ($ebp+8)     
-基础知识参考：深入理解计算机系统（第二版）112页，操作数指示符；124页，条件码；153页，函数调用过程堆栈使用；
+     
+####基础知识参考：     
+深入理解计算机系统（第二版）112页，操作数指示符；124页，条件码；153页，函数调用过程堆栈使用；
 175页，gdb调试常用命令。     
     
     
@@ -26,6 +28,7 @@ git init
 git add README.md    
 git commit -m "first commit"    
 git remote add origin https://github.com/xuezhaojiang/DefuseBinaryBomb.git    
+可能需要加一句git pull origin master     
 git push -u origin master    
 ####…or push an existing repository from the command line    
 git remote add origin https://github.com/xuezhaojiang/DefuseBinaryBomb.git    
