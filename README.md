@@ -3,7 +3,7 @@
 ####常用指令：（ubuntu系统）    
 0.反汇编生成汇编代码objdump -d bomb > bomb_assembly_25.s    
 1.进入gdb调试gdb bomb    
-2.设置断点break *0x80489a4或者break phase_6    
+2.设置断点break \*0x80489a4或者break phase_6    
 3.以solution文件作为参数，启动调试start solution    
 4.运行到断点处continue     
 5.下一步nexti,stepi,分别是不进入函数和进入函数    
