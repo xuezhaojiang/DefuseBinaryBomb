@@ -7,7 +7,7 @@
 3.以solution文件作为参数，启动调试start solution    
 4.运行到断点处continue     
 5.下一步nexti,stepi,分别是不进入函数和进入函数    
-6.执行5步stepi  5
+6.执行5步stepi  5        
 7.查看寄存器的值print $eax;以16进制查看print /x $eax     
 8.查看寄存器指向内存中位置的值（以整数形式查看）print *(int*) ($ebp+8)     
      
